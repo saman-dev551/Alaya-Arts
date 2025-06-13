@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+
+
+<body>
+  <header class="header-main">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container-fluid justify-content-between justify-content-lg-evenly p-0">
+        <a class="navbar-brand ps-4 ps-md-0" href="index.html">
+          <img src="assets/images/logo-trans.png" width="100" alt="" />
+        </a>
+        <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item d-block d-md-none">
+              <a href="#" class="nav-link">
+                <button class="btn btn-outline-primary text-light">
+                  Login
+                </button></a>
+            </li>
+            <li class="nav-item dropdown" id="language-dropdown">
+              <a class="nav-link" href="#" role="button" aria-expanded="false">Language
+                <img src="assets/images/icons/uk.png" width="20" alt="" /></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">English
+                    <img src="assets/images/icons/uk.png" width="20" alt="" /></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Spanish
+                    <img src="assets/images/icons/spain.png" width="20" alt="" /></a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown" id="content-dropdown">
+              <a class="nav-link" href="#" role="button" aria-expanded="false">Content
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="content.html">All</a></li>
+                <li><a class="dropdown-item" href="#">New</a></li>
+                <li><a class="dropdown-item" href="#">New-Release</a></li>
+                <li><a class="dropdown-item" href="#">Telenovela</a></li>
+                <li><a class="dropdown-item" href="#">Series</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Documentary Series</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Docs</a></li>
+                <li><a class="dropdown-item" href="#">Kids</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Factual-Lifestyle</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Unscripted Formats</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Films</a></li>
+                <li><a class="dropdown-item" href="#">Pagina-About</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <form class="search-bar d-flex align-items-center" role="search">
+                <i class="fa-solid fa-search position-absolute"></i>
+                <input class="form-control me-2" type="  search" placeholder="Search...." aria-label="Search" />
+              </form>
+            </li>
+          </ul>
+        </div>
+        <span class="navbar-text d-none d-lg-block">
+          <a href="register.html">login</a>
+        </span>
+      </div>
+    </nav>
+  </header>
+  <!-- ============================
+                Header close
+    ================================ -->
+  <main>
+    <!-- ============================
+              Header Carosuel Start
+        ================================ -->
+    <div class="header-carousel">
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="overlay"></div>
+            <img src="assets/images/Movies/crossed.jpg" class="w-100 d-block" alt="First slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="title">Crossed Paths</h1>
+              <span class="category">TELENOVELA
+                <span class="launch_date">• Launched in 2023</span></span>
+              <div class="buttons">
+                <button class="trailer">Trailer</button><button class="wishlist">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="black"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: black">
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z">
+                    </path>
+                  </svg></button><a class="more_detail" href="">See details</a>
+              </div>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="carousel-item">
+            <div class="overlay"></div>
+            <img src="assets/images/Movies/land-desire.jpg" class="w-100 d-block" alt="First slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="title">Land of Desire</h1>
+              <span class="category">TELENOVELA
+                <span class="launch_date">• Launched in 2023</span></span>
+              <div class="buttons">
+                <button class="trailer">Trailer</button><button class="wishlist">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="black"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: black">
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z">
+                    </path>
+                  </svg></button><a class="more_detail" href="">See details</a>
+              </div>
+            </div>
+          </div>
+          <!-- item 3 -->
+          <div class="carousel-item">
+            <div class="overlay"></div>
+            <img src="assets/images/Movies/vicky-mouse.jpg" class="w-100 d-block" alt="First slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="title">Vicky And The Muse</h1>
+              <span class="category">SERIES
+                <span class="launch_date">• Launched in 2023</span></span>
+              <div class="buttons">
+                <button class="trailer">Trailer</button><button class="wishlist">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="black"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: black">
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z">
+                    </path>
+                  </svg></button><a class="more_detail" href="">See details</a>
+              </div>
+            </div>
+          </div>
+          <!-- item4 -->
+          <div class="carousel-item">
+            <div class="overlay"></div>
+            <img src="assets/images/Movies/razor.jpg" class="w-100 d-block" alt="First slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="title">Living On A Razor's Edge</h1>
+              <span class="category">SERIES
+                <span class="launch_date">• Launched in 2023</span></span>
+              <div class="buttons">
+                <button class="trailer">Trailer</button><button class="wishlist">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="black"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: black">
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z">
+                    </path>
+                  </svg></button><a class="more_detail" href="">See details</a>
+              </div>
+            </div>
+          </div>
+          <!-- iterm 5 -->
+          <div class="carousel-item">
+            <div class="overlay"></div>
+            <img src="assets/images/Movies/xuxa.webp" class="w-100 d-block" alt="First slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="title">Xuxa, A Life On TV</h1>
+              <span class="category">DOCUMENTARY SERIES
+                <span class="launch_date">• Launched in 2023</span></span>
+              <div class="buttons">
+                <button class="trailer">Trailer</button><button class="wishlist">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="black"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: black">
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z">
+                    </path>
+                  </svg></button><a class="more_detail" href="">See details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ============================
+             New Release Card Carosuel Start
+        ================================ -->
+      <section class="my-5">
+        <div id="movies-card-slider" class="carousel ms-5">
+          <div class="movies-title ms-5">
+            <div class="title d-flex align-items-center gap-4">
+              <h2>New Releases</h2>
+              <a href="#">View All <i class="fa-solid fa-angle-right"></i> </a>
+            </div>
+          </div>
+          <div class="overlay-left"></div>
+          <div class="carousel-inner movies-card-slider-carousel-inner">
+            <div class="carousel-item movies-card-slider-carousel-item active">
+              <div class="card">
+                <div class="img-wrapper">
+                  <a href="">
+                    <img
+                      src="assets/images/Movies/Thumbnails/crosses.jpg"
+                      class="d-block w-100 rounded-5"
+                      alt="..."
+                    />
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Crossed Path</h5>
+                  <p class="card-text">Telenovela</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item movies-card-slider-carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                  <a href="#">
+                    <img
+                      src="assets/images/Movies/Thumbnails/land.jpg"
+                      class="d-block w-100 rounded-5"
+                      alt="..."
+                    />
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Land of Desire</h5>
+                  <p class="card-text">Telenovela</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item movies-card-slider-carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                  <a
+                    href="
+                  #"
+                  >
+                    <img
+                      src="assets/images/Movies/Thumbnails/end.jpg"
+                      class="d-block w-100 rounded-5"
+                      alt="..."
+                    />
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">The End</h5>
+                  <p class="card-text">Series</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item movies-card-slider-carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                  <a href="#">
+                    <img
+                      src="assets/images/Movies/Thumbnails/five.jpg"
+                      class="d-block w-100 rounded-5"
+                      alt="..."
+                    />
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">We are Five</h5>
+                  <p class="card-text">Series</p>
+                </div>
+              </div>
+            </div>
+            <div class="overlay-right"></div>
+            <div class="carousel-item movies-card-slider-carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                  <a href="#">
+                    <img
+                      src="assets/images/Movies/Thumbnails/brazilian.jpg"
+                      class="d-block w-100 rounded-5"
+                      alt="..."
+                    />
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">The Brazilian Mafia</h5>
+                  <p class="card-text">Documentary Series</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item movies-card-slider-carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                  <a href="#">
+                    <img
+                      src="assets/images/Movies/Thumbnails/razor.jpg"
+                      class="d-block w-100 rounded-5"
+                      alt="..."
+                    />
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Living On A Razor's Edge</h5>
+                  <p class="card-text">Series</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item movies-card-slider-carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                  <a
+                    href="
+                  #"
+                  >
+                    <img
+                      src="assets/images/Movies/Thumbnails/vicky.jpg"
+                      class="d-block w-100 rounded-5"
+                      alt="..."
+                    />
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Vicky And The Muse</h5>
+                  <p class="card-text">Series</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item movies-card-slider-carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                  <a href="#">
+                    <img
+                      src="assets/images/Movies/Thumbnails/globoplay.jpg"
+                      class="d-block w-100 rounded-5"
+                      alt="..."
+                    />
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Monica & Friends</h5>
+                  <p class="card-text">Series</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev movies-card-slider-carousel-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <i class="fa-solid fa-angle-left"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next movies-card-slider-carousel-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+            <i class="fa-solid fa-angle-right"></i>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- ============================
+             Telenovela Card Carosuel Start 2
+        ================================ -->
+        <section class="my-5">
+          <div id="movies-card-slider" class="carousel carousel-design-2 ms-5">
+            <div class="movies-title ms-5">
+              <div class="title d-flex align-items-center gap-4">
+                <h2>Telenovela</h2>
+                <a href="#">View All <i class="fa-solid fa-angle-right"></i> </a>
+              </div>
+            </div>
+            <div class="overlay-left"></div>
+            <div class="carousel-inner movies-card-slider-carousel-inner">
+              <div class="carousel-item movies-card-slider-carousel-item active">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="">
+                      <img
+                        src="assets/images/Movies/Thumbnails/crosses.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Crossed Path</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/land.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Land of Desire</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a
+                      href="
+                    #"
+                    >
+                      <img
+                        src="assets/images/Movies/Thumbnails/end.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The End</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/five.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">We are Five</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="overlay-right"></div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/brazilian.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The Brazilian Mafia</h5>
+                    <p class="card-text">Documentary Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/razor.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Living On A Razor's Edge</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a
+                      href="
+                    #"
+                    >
+                      <img
+                        src="assets/images/Movies/Thumbnails/vicky.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Vicky And The Muse</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/globoplay.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Monica & Friends</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev movies-card-slider-carousel-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-angle-left"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next movies-card-slider-carousel-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+              <i class="fa-solid fa-angle-right"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+         <!-- ============================
+             Series Card Carosuel Start 3
+        ================================ -->
+        <section class="my-5">
+          <div id="movies-card-slider" class="carousel carousel-design-2 ms-5">
+            <div class="movies-title ms-5">
+              <div class="title d-flex align-items-center gap-4">
+                <h2>Series</h2>
+                <a href="#">View All <i class="fa-solid fa-angle-right"></i> </a>
+              </div>
+            </div>
+            <div class="overlay-left"></div>
+            <div class="carousel-inner movies-card-slider-carousel-inner">
+              <div class="carousel-item movies-card-slider-carousel-item active">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="">
+                      <img
+                        src="assets/images/Movies/Thumbnails/crosses.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Crossed Path</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/land.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Land of Desire</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a
+                      href="
+                    #"
+                    >
+                      <img
+                        src="assets/images/Movies/Thumbnails/end.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The End</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/five.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">We are Five</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="overlay-right"></div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/brazilian.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The Brazilian Mafia</h5>
+                    <p class="card-text">Documentary Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/razor.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Living On A Razor's Edge</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a
+                      href="
+                    #"
+                    >
+                      <img
+                        src="assets/images/Movies/Thumbnails/vicky.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Vicky And The Muse</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/globoplay.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Monica & Friends</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev movies-card-slider-carousel-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-angle-left"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next movies-card-slider-carousel-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+              <i class="fa-solid fa-angle-right"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+           <!-- ============================
+             Documentary Series Card Carosuel Start 4
+        ================================ -->
+        <section class="my-5">
+          <div id="movies-card-slider" class="carousel carousel-design-2 ms-5">
+            <div class="movies-title ms-5">
+              <div class="title d-flex align-items-center gap-4">
+                <h2>Documentary Series</h2>
+                <a href="#">View All <i class="fa-solid fa-angle-right"></i> </a>
+              </div>
+            </div>
+            <div class="overlay-left"></div>
+            <div class="carousel-inner movies-card-slider-carousel-inner">
+              <div class="carousel-item movies-card-slider-carousel-item active">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="">
+                      <img
+                        src="assets/images/Movies/Thumbnails/crosses.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Crossed Path</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/land.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Land of Desire</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a
+                      href="
+                    #"
+                    >
+                      <img
+                        src="assets/images/Movies/Thumbnails/end.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The End</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/five.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">We are Five</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="overlay-right"></div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/brazilian.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The Brazilian Mafia</h5>
+                    <p class="card-text">Documentary Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/razor.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Living On A Razor's Edge</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a
+                      href="
+                    #"
+                    >
+                      <img
+                        src="assets/images/Movies/Thumbnails/vicky.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Vicky And The Muse</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/globoplay.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Monica & Friends</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev movies-card-slider-carousel-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-angle-left"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next movies-card-slider-carousel-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+              <i class="fa-solid fa-angle-right"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        <!-- ============================
+             Docs Card Carosuel Start 5
+        ================================ -->
+        <section class="my-5">
+          <div id="movies-card-slider" class="carousel carousel-design-2 ms-5">
+            <div class="movies-title ms-5">
+              <div class="title d-flex align-items-center gap-4">
+                <h2>Docs</h2>
+                <a href="#">View All <i class="fa-solid fa-angle-right"></i> </a>
+              </div>
+            </div>
+            <div class="carousel-inner movies-card-slider-carousel-inner gap-0">
+              <div class="carousel-item movies-card-slider-carousel-item active">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="">
+                      <img
+                        src="assets/images/Movies/Thumbnails/crosses.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Crossed Path</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/land.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Land of Desire</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a
+                      href="
+                    #"
+                    >
+                      <img
+                        src="assets/images/Movies/Thumbnails/end.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The End</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/five.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">We are Five</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+         <!-- ============================
+             Kids Card Carosuel Start 6
+        ================================ -->
+        <section class="my-5">
+          <div id="movies-card-slider" class="carousel carousel-design-2 ms-5">
+            <div class="movies-title ms-5">
+              <div class="title d-flex align-items-center gap-4">
+                <h2>Kids</h2>
+                <a href="#">View All <i class="fa-solid fa-angle-right"></i> </a>
+              </div>
+            </div>
+            <div class="carousel-inner movies-card-slider-carousel-inner">
+              <div class="carousel-item movies-card-slider-carousel-item active">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="">
+                      <img
+                        src="assets/images/Movies/Thumbnails/crosses.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Crossed Path</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/land.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Land of Desire</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a
+                      href="
+                    #"
+                    >
+                      <img
+                        src="assets/images/Movies/Thumbnails/end.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The End</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/five.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">We are Five</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+             
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/brazilian.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The Brazilian Mafia</h5>
+                    <p class="card-text">Documentary Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/razor.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Living On A Razor's Edge</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a
+                      href="
+                    #"
+                    >
+                      <img
+                        src="assets/images/Movies/Thumbnails/vicky.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Vicky And The Muse</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/globoplay.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Monica & Friends</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev movies-card-slider-carousel-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-angle-left"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next movies-card-slider-carousel-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+              <i class="fa-solid fa-angle-right"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+           <!-- ============================
+            Factual Lifestyle Card Carosuel Start 4
+        ================================ -->
+        <section class="my-5">
+          <div id="movies-card-slider" class="carousel carousel-design-2 ms-5">
+            <div class="movies-title ms-5">
+              <div class="title d-flex align-items-center gap-4">
+                <h2>Factual Lifestyle</h2>
+                <a href="#">View All <i class="fa-solid fa-angle-right"></i> </a>
+              </div>
+            </div>
+            <div class="overlay-left"></div>
+            <div class="carousel-inner movies-card-slider-carousel-inner">
+              <div class="carousel-item movies-card-slider-carousel-item active">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="">
+                      <img
+                        src="assets/images/Movies/Thumbnails/crosses.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Crossed Path</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/land.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Land of Desire</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a
+                      href="
+                    #"
+                    >
+                      <img
+                        src="assets/images/Movies/Thumbnails/end.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The End</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/five.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">We are Five</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="overlay-right"></div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/brazilian.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The Brazilian Mafia</h5>
+                    <p class="card-text">Documentary Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/razor.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Living On A Razor's Edge</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a
+                      href="
+                    #"
+                    >
+                      <img
+                        src="assets/images/Movies/Thumbnails/vicky.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Vicky And The Muse</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/globoplay.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Monica & Friends</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev movies-card-slider-carousel-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-angle-left"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next movies-card-slider-carousel-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+              <i class="fa-solid fa-angle-right"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+          <!-- ============================
+            Unscripted Formats Card Carosuel Start 4
+        ================================ -->
+        <section class="my-5">
+          <div id="movies-card-slider" class="carousel carousel-design-2 ms-5">
+            <div class="movies-title ms-5">
+              <div class="title d-flex align-items-center gap-4">
+                <h2>Unscripted Formats</h2>
+                <a href="#">View All <i class="fa-solid fa-angle-right"></i> </a>
+              </div>
+            </div>
+            <div class="carousel-inner movies-card-slider-carousel-inner gap-0">
+              <div class="carousel-item movies-card-slider-carousel-item active">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="">
+                      <img
+                        src="assets/images/Movies/Thumbnails/crosses.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Crossed Path</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/land.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Land of Desire</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a
+                      href="
+                    #"
+                    >
+                      <img
+                        src="assets/images/Movies/Thumbnails/end.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The End</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/five.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">We are Five</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+          <!-- ============================
+            Films  Card Carosuel Start 4
+        ================================ -->
+        <section class="my-5">
+          <div id="movies-card-slider" class="carousel carousel-design-2 ms-5">
+            <div class="movies-title ms-5">
+              <div class="title d-flex align-items-center gap-4">
+                <h2>Films</h2>
+                <a href="#">View All <i class="fa-solid fa-angle-right"></i> </a>
+              </div>
+            </div>
+            <div class="overlay-left"></div>
+            <div class="carousel-inner movies-card-slider-carousel-inner">
+              <div class="carousel-item movies-card-slider-carousel-item active">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="">
+                      <img
+                        src="assets/images/Movies/Thumbnails/crosses.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Crossed Path</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/land.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Land of Desire</h5>
+                    <p class="card-text">Telenovela</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a
+                      href="
+                    #"
+                    >
+                      <img
+                        src="assets/images/Movies/Thumbnails/end.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The End</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/five.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">We are Five</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="overlay-right"></div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/brazilian.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The Brazilian Mafia</h5>
+                    <p class="card-text">Documentary Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/razor.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Living On A Razor's Edge</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a
+                      href="
+                    #"
+                    >
+                      <img
+                        src="assets/images/Movies/Thumbnails/vicky.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Vicky And The Muse</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item movies-card-slider-carousel-item">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <a href="#">
+                      <img
+                        src="assets/images/Movies/Thumbnails/globoplay.jpg"
+                        class="d-block w-100 rounded-1"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Monica & Friends</h5>
+                    <p class="card-text">Series</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev movies-card-slider-carousel-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-angle-left"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next movies-card-slider-carousel-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+              <i class="fa-solid fa-angle-right"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+    </main>
+    <div class="visme_d" data-title="Untitled Project" data-url="n08pwen7-untitled-project" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="56330"></div>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/card-carousel.js"></script>
+  </body>
+</html>
+    </div>
+    <!-- ============================
+              Card Carosuel Start
+        ================================ -->
+
+  </main>
+
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <script></script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+
+    <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+</body>
+
+</html>
